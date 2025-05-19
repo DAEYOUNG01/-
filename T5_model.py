@@ -3,7 +3,7 @@ from transformers import AutoModelForSeq2SeqLM,AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(
     "wisenut-nlp-team/KoT5", 
     revision="paraphrase",
-    token="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"
+    token="허깅페이스 토큰"
 )
 model = AutoModelForSeq2SeqLM.from_pretrained(
     "wisenut-nlp-team/KoT5", 
