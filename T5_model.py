@@ -8,7 +8,7 @@ tokenizer = AutoTokenizer.from_pretrained(
 model = AutoModelForSeq2SeqLM.from_pretrained(
     "wisenut-nlp-team/KoT5", 
     revision="paraphrase",
-    token="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"
+    token="허깅페이스 토큰"
 )
 
 
